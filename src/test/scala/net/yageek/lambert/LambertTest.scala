@@ -1,7 +1,5 @@
 package net.yageek.lambert
 
-;
-
 import junit.framework.Assert.assertNotNull
 import net.yageek.lambert.ZoneCode._
 import net.yageek.lambert.Constants._

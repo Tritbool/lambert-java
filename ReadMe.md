@@ -1,4 +1,15 @@
 # lambert-scala
+
+[![Build Status](https://travis-ci.org/Tritbool/lambert-scala.svg?branch=master)](https://travis-ci.org/Tritbool/lambert-scala)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=alert_status)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=bugs)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=code_smells)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=sqale_rating)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=reliability_rating)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=security_rating)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=sqale_index)
+![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=vulnerabilities)
+
 **Freely adapted from Yageek work at** : https://github.com/yageek/lambert-java 
 
 The idea was to have :

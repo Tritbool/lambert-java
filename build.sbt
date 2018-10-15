@@ -1,3 +1,5 @@
+organization := "net.yageek"
+
 name := "lambert-scala"
 
 version := "0.1"

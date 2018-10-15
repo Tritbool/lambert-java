@@ -1,5 +1,7 @@
-.idea
-.gradle
+/target
+/spark-warehouse
+/.idea
+/project/target
+/project/project
+*.log
 *.iml
-build
-gradle.properties

@@ -13,7 +13,6 @@ A simple scala 2.11 library to convert Lambert Coordinates to GPS WGS84 coordina
 * Compile with `sbt clean test package publishLocal`
 * You can now add the sbt dependency `libraryDependencies +="net.yageek" %% "lambert-scala"%"1.0"` to your Scala projects
 
-
 # Usage
 The usage is mostly the same as the initial java version :
 

@@ -1,6 +1,7 @@
 # lambert-scala
 
 [![Build Status](https://travis-ci.org/Tritbool/lambert-scala.svg?branch=master)](https://travis-ci.org/Tritbool/lambert-scala)
+[![codecov](https://codecov.io/gh/Tritbool/lambert-scala/branch/master/graph/badge.svg)](https://codecov.io/gh/Tritbool/lambert-scala)
 ![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=alert_status)
 ![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=bugs)
 ![Build Status](https://sonarcloud.io/api/project_badges/measure?project=Lambert-Scala&metric=code_smells)

@@ -8,4 +8,5 @@ addons:
       secure : "Iy3Ygm9cRhOecOBQYo43/NlyxlpwcGE1bS5ZK92a2GVralcy7/+nM7nKvFJan/IuKzEB9X32JWoLszYyTMklAgW1xyqzMdt65KnN0JFBYhBelvWNrgYdTPLmqfDxXHTgrVdGznaAE2QqEUjGdPFapfovNnTDvKNrddJBxN8V9dA1MFy9cyqP3J73oXWS2Mn1sPpxeFzb/DFMmwdI7OfhOhKabp0MC8jQ5sMomldDtn49CDQO+Vixl3MSTHm3EuUxl9uwh7GaZn/q+00Og4mu89V9ekyo1k4e31NyA2sxwAafwWfTKkG+HiXdYAYlt5a4x+cUO4LKQVCjy10e8Ok6tx/+WW8Fml8kw5bDknSzPkAaTI1evdtbCZHVkL5EvY28bTF5CBhfkB99E/sc/OAVnRQVcdim/OfsQyXRLKgcM5N6W0TfcnfuEB2fbKlKs0uKJWyLlE3S12sa4lSwW5aixzL/Ds0XpwsViPdLAjC+daYA671/zya2AbHjqAMSHOYpcoUTFy1s2V/jowQDjOV3dNaWNOInkqwSLHa78JgKixGUd3IiGhXnEk5bZ0hj+kgsR7239V9uI3SWo/OfM98g35a0NVqtKyiFXvpkZAmW+HA4oiRXRJpiTPXdbfvmvE0JPuX/1h2KTJPeAWF3YMlYlPZcdeyqBgxo4gKXx028Pz8="
 script:
   - sbt clean coverage test coverageReport
+  - bash <(curl -s https://codecov.io/bash) -t 5cbec1c6-bf24-48ef-a4d4-539a906c938d
   - sonar-scanner

@@ -1,21 +1,13 @@
 package net.yageek.lambert
 
 import junit.framework.Assert.assertNotNull
-import net.yageek.lambert.ZoneCode._
 import net.yageek.lambert.Constants._
+import net.yageek.lambert.ZoneCode._
 import org.junit.Assert.assertEquals
-import org.junit.After
-import org.junit.Before
 import org.junit.Test
-import org.junit.runner.RunWith
-import org.junit.runners.JUnit4
-import java.io.ByteArrayOutputStream
-import java.io.PrintStream
-
-import com.typesafe.scalalogging.LazyLogging
 
 //@RunWith(JUnit4.class)
-class LambertTest extends LazyLogging {
+class LambertTest {
   // private val outContent: ByteArrayOutputStream = new ByteArrayOutputStream()
   // private val errContent: ByteArrayOutputStream = new ByteArrayOutputStream()
 
@@ -34,7 +26,7 @@ class LambertTest extends LazyLogging {
   @Test
   def ResultTest() = {
     val pt: LambertPoint = Lambert.convertToWGS84Deg(994272.661, 113467.422, new LambertZone(LambertI))
-    logger.info("Point latitude:" + pt.getY() + " longitude:" + pt.getX())
+    println("Point latitude:" + pt.getY() + " longitude:" + pt.getX())
   }
 
   @Test
